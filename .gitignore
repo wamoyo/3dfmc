@@ -17,6 +17,8 @@ Thumbs.db
 .env
 .env.*
 
-# Lambda packaging artifacts
-lambda/node_modules/
-lambda/*.zip
+# Lambda (deployed separately via AWS CLI, not part of static site)
+lambda/
+
+# Project docs (not part of static site)
+CLAUDE.md
