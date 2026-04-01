@@ -1,0 +1,22 @@
+# Reference material and design explorations (not deployed)
+archive/
+prototypes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Lambda packaging artifacts
+lambda/node_modules/
+lambda/*.zip
